@@ -19,6 +19,7 @@ env/
 data/raw/
 
 # Large generated datasets
+data/
 data/cve_dataset.csv
 data/cve_dataset_hierarchy_merged.csv
 data/cve_removed_without_cwe.csv
