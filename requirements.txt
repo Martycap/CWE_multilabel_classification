@@ -1,0 +1,9 @@
+requests
+iterative-stratification
+pandas
+matplotlib
+jupyter
+joblib
+numpy
+scipy
+scikit-learn

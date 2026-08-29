@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local documents and drafts
+*.docx
+~$*
+
+# Raw downloaded data
+data/raw/
+
+# Large generated datasets
+data/cve_dataset.csv
+data/cve_dataset_hierarchy_merged.csv
+data/cve_removed_without_cwe.csv
+
+# Generated feature matrices and split files from old fixed-split pipeline
+artifacts/features/
+artifacts/splits/
+
+# Trained model binaries
+artifacts/models/
+
+# Generated result artifacts
+artifacts/results/
+results/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
