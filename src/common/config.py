@@ -1,0 +1,19 @@
+from pathlib import Path
+
+DATASET_PATH = Path("data/cve_dataset_hierarchy_merged.csv")
+ARTIFACTS_DIR = Path("artifacts")
+SPLITS_DIR = ARTIFACTS_DIR / "splits"
+FEATURES_DIR = ARTIFACTS_DIR / "features"
+MODELS_DIR = ARTIFACTS_DIR / "models"
+RESULTS_DIR = ARTIFACTS_DIR / "results"
+KFOLD_RESULTS_DIR = RESULTS_DIR / "kfold"
+
+RANDOM_STATE = 42
+TEST_SIZE = 0.15
+VALIDATION_SIZE = 0.15
+KFOLD_N_SPLITS = 5
+
+TFIDF_MAX_FEATURES = 50_000
+TFIDF_MIN_DF = 2
+TFIDF_MAX_DF = 0.95
+
